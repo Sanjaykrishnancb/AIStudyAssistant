@@ -1,5 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\AIStudyAssistant.Application\AIStudyAssistant.Application.csproj" />
+    <ProjectReference Include="..\AIStudyAssistant.Domain\AIStudyAssistant.Domain.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

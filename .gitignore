@@ -1,0 +1,45 @@
+# Build folders
+**/bin/
+**/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# ASP.NET
+wwwroot/lib/
+
+# User secrets
+secrets.json
+
+# Environment files
+.env
+.env.*
+
+# Test Results
+TestResults/
+
+# Publish output
+publish/
+
+# Coverage
+coverage/
+*.coverage
+
+# OS Files
+.DS_Store
+Thumbs.db
